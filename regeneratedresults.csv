@@ -1,0 +1,5 @@
+QUERIES,RESPONSE,MEAN OF CON,MAXIMUM CONFIDENCE,MINIMUM CONFIDENCE,STDEV. OF CON,RESULT ENTITIES,HANDGENERATED ENTITIES,TOTAL ENTITIES,IDENTIFIED,IDENTIFIED CORRECTLY,DID INTENT MATCH
+
+I need some help on question with Data Structures,200,,,,,[],"[(u'contact', u'I'), (u'object', u'question'), (u'object', u'Data Structures')]",3,0,0,1
+Please Skip this question,200,0.84130747399999994,0.862931848,0.8196831,0.021624374000000002,"[('which', 'this', 0.8196831), ('object', 'question', 0.862931848)]",[],0,2,0,0
+Display question 23,200,0.84294503450000002,0.98439776899999998,0.70149229999999996,0.14145273450000001,"[('builtin.number', '23', 0.984397769), ('object', 'question', 0.7014923)]","[(u'builtin.number', u'23'), (u'object', u'question')]",2,2,2,0

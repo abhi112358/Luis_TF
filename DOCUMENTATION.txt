@@ -1,0 +1,17 @@
+3 MAIN PAPA ARRAYS IN WIT'S TESTING FRAMEWORK WERE - 
+
+ENTITIES		a.k.a LOLOTev		= LOLOT(entities,values)
+RESULTENTITIES		a.k.a LOLOTrev		= LOLOT(resultentities,resultvalues)
+LOLOTrevc					= LOLOT(resultentities,resultvalues,resultconfidence)
+
+In LUIS, entities and intents are treated differently, so we will have to replace these 3 by 6 papa arrays
+Also, in LUIS, confidence is called score. But for ease of use, we'll still denote it by c
+
+INTENTS			a.k.a LOLOTev		= LOLOT(intents,values)  #technically there can will be only 1 intent, but we still define it as a json obj in input file
+RESULTINTENTS		a.k.a LOLOTrev		= LOLOT(resultintents,resultvalues)   #in verbose mode, LUIS retursn an array of multiple itntes detected, but we don't need that. We'll just store the top scoring intent
+LOLOTrivc					= LOLOT(resultintents,resultvalues,resultconfidence)
+ENTITIES		a.k.a LOLOTev		= LOLOT(entities,values)
+RESULTENTITIES		a.k.a LOLOTrev		= LOLOT(resultentities,resultvalues)
+LOLOTrevc					= LOLOT(resultentities,resultvalues,resultconfidence)
+
+ALSO, sice entire csv can be regenerated using PAPA ARRAYS, this gives us a wonderful opportunity to not do the hodge podge we made in the middle of Wit's code
